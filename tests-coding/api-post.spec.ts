@@ -1,6 +1,5 @@
-import { request } from "@playwright/test";
-import {test, expect} from './api-fixture-token.spec.js'
-let token;
+
+import {test, expect} from './api-fixture-token-fixture.js'
 test("api-request", async ({  request, token }) => {
   
     
