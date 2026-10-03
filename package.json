@@ -2,13 +2,21 @@
   "name": "api_test",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+ "scripts": {
+  "test-prod": "cross-env envName=prod npx playwright test env-test.spec.ts --headed"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
-    "@types/node": "^26.2.0"
+    "@types/node": "^26.6.4",
+    "allure-playwright": "^3.12.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
   }
 }

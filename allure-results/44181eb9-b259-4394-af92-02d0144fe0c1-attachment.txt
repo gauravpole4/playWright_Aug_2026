@@ -1,0 +1,4 @@
+{
+  name: 'TestUser_a755758f-1f88-410c-a470-38dcbc76d566',
+  email: 'test_6167c98d-24d9-407e-8878-997bd29d74fa@example.com'
+}

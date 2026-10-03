@@ -1,0 +1,16 @@
+[
+  {
+    "user": "Test1",
+    "pass": "P1"
+  },
+
+  {
+    "user": "Test2",
+    "pass": "P2"
+  },
+
+  {
+    "user": "Test3",
+    "pass": "P3"
+  }
+]
