@@ -22,7 +22,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test tests-coding/api-post.spec.ts
+      run: npm run test-prod
     - name: Generate Allure report
       if: ${{ always() }}
       run: npx --yes allure-commandline@2.34.1 generate allure-results --clean --output report
