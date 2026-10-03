@@ -10,7 +10,7 @@ test("api-request", async ({  request, token }) => {
     {
       data: {
         article: {
-          title: "FromFixture",
+          title: "FromFixture1212",
           description: "a",
           body: "a",
           tagList: [],
