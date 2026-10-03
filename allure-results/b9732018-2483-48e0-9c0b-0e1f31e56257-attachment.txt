@@ -1,4 +1,0 @@
-{
-  name: 'TestUser_ad1b2395-e2a4-4b3f-b755-26904ff62cb5',
-  email: 'test_110713c9-43e8-4def-90c5-01f70ac90be9@example.com'
-}

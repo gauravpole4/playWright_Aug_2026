@@ -5,6 +5,8 @@
     "target": "ES2022",
     "types": ["node", "@playwright/test"],
     "verbatimModuleSyntax": false,
+    "resolveJsonModule": true,
+"esModuleInterop": true
 
     "sourceMap": true,
     "declaration": true,

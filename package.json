@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
- "scripts": {
-  "test-prod": "cross-env envName=prod npx playwright test env-test.spec.ts --headed"
-},
+  "scripts": {
+    "test-qa": "cross-env ENV=qa npx playwright test tests-basics/env-check.spec.ts",
+    "test-prod": "cross-env ENV=prod npx playwright test tests-basics/env-check.spec.ts",
+    "test-stage": "cross-env ENV=stage npx playwright test tests-basics/env-check.spec.ts"
+
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -1,6 +1,6 @@
 
 import { test } from '@playwright/test';
-import users from './test-data.json'
+import users from './../Test-data/test-data.json'
  
 test('demo', async () => {
 
